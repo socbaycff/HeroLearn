@@ -1,0 +1,6 @@
+framework module Pods_HeroLearn {
+  umbrella header "Pods-HeroLearn-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81262356919CC73ABE9BD05C /* Pods_HeroLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1B6002C8166C7EA631207C /* Pods_HeroLearn.framework */; };
 		8A5BC2DC24E02E4C002B48BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BC2DB24E02E4C002B48BC /* AppDelegate.swift */; };
 		8A5BC2DE24E02E4C002B48BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BC2DD24E02E4C002B48BC /* SceneDelegate.swift */; };
 		8A5BC2E024E02E4C002B48BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BC2DF24E02E4C002B48BC /* ViewController.swift */; };
-		8A5BC2E324E02E4C002B48BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5BC2E124E02E4C002B48BC /* Main.storyboard */; };
 		8A5BC2E524E02E4D002B48BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5BC2E424E02E4D002B48BC /* Assets.xcassets */; };
 		8A5BC2E824E02E4D002B48BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5BC2E624E02E4D002B48BC /* LaunchScreen.storyboard */; };
+		8A5BC2F124E030A4002B48BC /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BC2EF24E030A4002B48BC /* NextViewController.swift */; };
+		8A5BC2F224E030A4002B48BC /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5BC2F024E030A4002B48BC /* NextViewController.xib */; };
+		8A5BC2F524E030C3002B48BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BC2F324E030C3002B48BC /* FirstViewController.swift */; };
+		8A5BC2F624E030C3002B48BC /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5BC2F424E030C3002B48BC /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B539E5C0E42A0B99A858F59 /* Pods-HeroLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroLearn.debug.xcconfig"; path = "Target Support Files/Pods-HeroLearn/Pods-HeroLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1B6002C8166C7EA631207C /* Pods_HeroLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDC824D89BA1766C0CC55FB /* Pods-HeroLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroLearn.release.xcconfig"; path = "Target Support Files/Pods-HeroLearn/Pods-HeroLearn.release.xcconfig"; sourceTree = "<group>"; };
 		8A5BC2D824E02E4C002B48BC /* HeroLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5BC2DB24E02E4C002B48BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A5BC2DD24E02E4C002B48BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A5BC2DF24E02E4C002B48BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A5BC2E224E02E4C002B48BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A5BC2E424E02E4D002B48BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A5BC2E724E02E4D002B48BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A5BC2E924E02E4D002B48BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5BC2EF24E030A4002B48BC /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		8A5BC2F024E030A4002B48BC /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		8A5BC2F324E030C3002B48BC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8A5BC2F424E030C3002B48BC /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81262356919CC73ABE9BD05C /* Pods_HeroLearn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68A33EB3367B50F367BB7C59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B539E5C0E42A0B99A858F59 /* Pods-HeroLearn.debug.xcconfig */,
+				7EDC824D89BA1766C0CC55FB /* Pods-HeroLearn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8A5BC2CF24E02E4C002B48BC = {
 			isa = PBXGroup;
 			children = (
 				8A5BC2DA24E02E4C002B48BC /* HeroLearn */,
 				8A5BC2D924E02E4C002B48BC /* Products */,
+				68A33EB3367B50F367BB7C59 /* Pods */,
+				D2DFC2221FAC32F4E29DCA3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +81,23 @@
 				8A5BC2DB24E02E4C002B48BC /* AppDelegate.swift */,
 				8A5BC2DD24E02E4C002B48BC /* SceneDelegate.swift */,
 				8A5BC2DF24E02E4C002B48BC /* ViewController.swift */,
-				8A5BC2E124E02E4C002B48BC /* Main.storyboard */,
 				8A5BC2E424E02E4D002B48BC /* Assets.xcassets */,
 				8A5BC2E624E02E4D002B48BC /* LaunchScreen.storyboard */,
 				8A5BC2E924E02E4D002B48BC /* Info.plist */,
+				8A5BC2EF24E030A4002B48BC /* NextViewController.swift */,
+				8A5BC2F024E030A4002B48BC /* NextViewController.xib */,
+				8A5BC2F324E030C3002B48BC /* FirstViewController.swift */,
+				8A5BC2F424E030C3002B48BC /* FirstViewController.xib */,
 			);
 			path = HeroLearn;
+			sourceTree = "<group>";
+		};
+		D2DFC2221FAC32F4E29DCA3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B1B6002C8166C7EA631207C /* Pods_HeroLearn.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5BC2EC24E02E4D002B48BC /* Build configuration list for PBXNativeTarget "HeroLearn" */;
 			buildPhases = (
+				291EAEAFDEDF909B313942B4 /* [CP] Check Pods Manifest.lock */,
 				8A5BC2D424E02E4C002B48BC /* Sources */,
 				8A5BC2D524E02E4C002B48BC /* Frameworks */,
 				8A5BC2D624E02E4C002B48BC /* Resources */,
+				CDC0564E1C5B384971688389 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +161,64 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A5BC2E824E02E4D002B48BC /* LaunchScreen.storyboard in Resources */,
+				8A5BC2F224E030A4002B48BC /* NextViewController.xib in Resources */,
 				8A5BC2E524E02E4D002B48BC /* Assets.xcassets in Resources */,
-				8A5BC2E324E02E4C002B48BC /* Main.storyboard in Resources */,
+				8A5BC2F624E030C3002B48BC /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291EAEAFDEDF909B313942B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC0564E1C5B384971688389 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroLearn/Pods-HeroLearn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroLearn/Pods-HeroLearn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeroLearn/Pods-HeroLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A5BC2D424E02E4C002B48BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5BC2F524E030C3002B48BC /* FirstViewController.swift in Sources */,
 				8A5BC2E024E02E4C002B48BC /* ViewController.swift in Sources */,
+				8A5BC2F124E030A4002B48BC /* NextViewController.swift in Sources */,
 				8A5BC2DC24E02E4C002B48BC /* AppDelegate.swift in Sources */,
 				8A5BC2DE24E02E4C002B48BC /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8A5BC2E124E02E4C002B48BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A5BC2E224E02E4C002B48BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8A5BC2E624E02E4D002B48BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +354,7 @@
 		};
 		8A5BC2ED24E02E4D002B48BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B539E5C0E42A0B99A858F59 /* Pods-HeroLearn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +373,7 @@
 		};
 		8A5BC2EE24E02E4D002B48BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDC824D89BA1766C0CC55FB /* Pods-HeroLearn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
